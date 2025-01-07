@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import Dezinfeksiya4 from "../assets/dezinfeksiya4.png";
+import Dezinfeksiya4 from "../../public/assets/dezinfeksiya4.png";
 
 const Contact = () => {
   return (

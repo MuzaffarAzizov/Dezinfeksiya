@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import Svg1 from "../assets/svg1.svg";
-import Svg2 from "../assets/svg2.svg";
-import Svg3 from "../assets/svg3.svg";
+import Svg1 from "/assets/svg1.svg";
+import Svg2 from "/assets/svg2.svg";
+import Svg3 from "/assets/svg3.svg";
 
 const About = () => {
   return (

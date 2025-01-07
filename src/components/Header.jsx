@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import Dezinfeksiya1 from "../assets/Dezinfeksiya1.webp";
 
 const Header = () => {
   return (
@@ -18,7 +17,7 @@ const Header = () => {
         </div>
 
         <div className="header-image">
-          <img src={Dezinfeksiya1} alt="Dezinfektsiya" />
+          <img src="/assets/Dezinfeksiya1.webp" alt="Dezinfektsiya" />
         </div>
       </div>
     </section>

@@ -1,8 +1,5 @@
 import React from "react";
 import "./Services.css";
-import Virus from "../assets/Virus.png";
-import Insects from "../assets/Insects.png";
-import Mice from "../assets/Mice.png";
 
 const Services = () => {
   return (
@@ -10,7 +7,7 @@ const Services = () => {
       <h2>Xizmatlar</h2>
       <p>Biz sizga samarali va sifatli xizmat taqdim etamiz.</p>
       <div className="service__card">
-        <img src={Virus} alt="Service Image" />
+        <img src="/assets/virus.png" alt="Service Image" />
         <div className="service__text">
           <h3>Dezinfeksiya - zararli mikro organizmlarni yo'q qilish</h3>
           <p>
@@ -23,7 +20,7 @@ const Services = () => {
         </div>
       </div>
       <div className="service__card">
-        <img src={Insects} alt="Service Image" />
+        <img src="/assets/insects.png" alt="Service Image" />
         <div className="service__text">
           <h3>Dezinseksiya - xasharotlarni yo'q qilish</h3>
           <p>
@@ -38,7 +35,7 @@ const Services = () => {
         </div>
       </div>
       <div className="service__card">
-        <img src={Mice} alt="Service Image" />
+        <img src="/assets/mice.png" alt="Service Image" />
         <div className="service__text">
           <h3>Deratizatsiya - kemiruvchilarni yo'q qilish.</h3>
           <p>
