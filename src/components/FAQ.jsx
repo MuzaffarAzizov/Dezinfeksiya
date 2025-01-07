@@ -37,7 +37,7 @@ const FAQ = () => {
               className={`faq-question ${
                 activeIndex === index ? "active" : ""
               }`}
-              onClick={() => handleToggle(index)}
+              onClick={() => toggleFAQ(index)}
             >
               {faq.question}
             </button>

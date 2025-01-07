@@ -32,7 +32,7 @@ const Contact = () => {
       </div>
       <div className="contact-right">
         <img
-          src="/assets/dezinfeksiya4.png"
+          src="/assets/Dezinfeksiya4.png"
           alt="Contact Us"
           className="contact-image"
         />

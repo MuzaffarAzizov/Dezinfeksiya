@@ -48,15 +48,15 @@
 }
 
 .faq-question::after {
-  content: "▼"; /* Downward Triangle */
+  content: "▼";
   font-size: 1.2rem;
   margin-left: auto;
   transition: transform 0.3s ease;
 }
 
 .faq-question.active::after {
-  content: "▲"; /* Upward Triangle */
-  transform: rotate(180deg); /* Rotate for smooth animation */
+  content: "▲";
+  transform: rotate(180deg);
 }
 
 .faq-answer {
@@ -71,7 +71,6 @@
   margin: 0;
 }
 
-/* Mobile Styling */
 @media (max-width: 600px) {
   .faq-question {
     font-size: 1rem;
