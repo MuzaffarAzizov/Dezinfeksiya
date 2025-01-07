@@ -1,0 +1,96 @@
+.klapa {
+  position: relative;
+  height: 24em;
+  background-image: linear-gradient(270deg, #4db24090 70%, #215f1300),
+    url("../assets/Dezinfeksiya2.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: right;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  padding: 8em 0;
+  color: #fff;
+  border-radius: 20px;
+  background-size: cover;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+.klapa__content {
+  max-width: 600px;
+  width: 30%;
+  padding: 20px 4em;
+  border-radius: 8px;
+  color: #fafafa;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0 5%;
+}
+
+.klapa__content h2 {
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.klapa__content p {
+  max-width: 370px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.klapa__button {
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  background: radial-gradient(
+    498.32% 130.33% at 92.87% 11.25%,
+    #a1ce7d,
+    #1a7c15
+  );
+  color: #fff;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.klapa__button:hover {
+  background-color: #218838;
+}
+@media (max-width: 1270px) {
+  .klapa {
+    height: auto;
+    text-align: center;
+  }
+  .klapa__content {
+    padding: 0 4em;
+  }
+}
+@media (max-width: 768px) {
+  .klapa {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .klapa__content {
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .klapa__content h2 {
+    padding: 20px 0;
+  }
+  .klapa__content p {
+    text-align: center;
+    max-width: 100%;
+  }
+}

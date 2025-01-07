@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+.about h3 {
+  margin-left: 20px;
+  color: #023107;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  font-family: "Unbounded", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+.about__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.about__column {
+  flex: 1;
+  max-width: calc(33.333% - 20px);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.about__column:hover {
+  transform: translateY(-5px);
+}
+.about__column h2 {
+  color: #081b02;
+  font-size: 25px;
+}
+.about__column p {
+  font-weight: 300;
+  color: #678372;
+  font-size: 16px;
+}
+.about__column img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .about__column {
+    max-width: calc(50% - 20px);
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__column {
+    max-width: 100%;
+  }
+}
