@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css";
 import logo from "../assets/logo.png";
 import locationIcon from "../assets/location.svg";
-import phoneIcon from "../assets/phone.svg";
-import arrowIcon from "../assets/arrow.svg";
+import phoneIcon from "../assets/Phone.svg";
+import arrowIcon from "../assets/Arrow.svg";
 
 const Footer = () => {
   return (
