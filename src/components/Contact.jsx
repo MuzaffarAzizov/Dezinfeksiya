@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import Dezinfeksiya4 from "../../public/assets/dezinfeksiya4.png";
 
 const Contact = () => {
   return (
@@ -32,7 +31,11 @@ const Contact = () => {
         </form>
       </div>
       <div className="contact-right">
-        <img src={Dezinfeksiya4} alt="Contact Us" className="contact-image" />
+        <img
+          src="/assets/dezinfeksiya4.png"
+          alt="Contact Us"
+          className="contact-image"
+        />
       </div>
     </div>
   );

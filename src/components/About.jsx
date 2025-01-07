@@ -1,8 +1,5 @@
 import React from "react";
 import "./About.css";
-import Svg1 from "/assets/svg1.svg";
-import Svg2 from "/assets/svg2.svg";
-import Svg3 from "/assets/svg3.svg";
 
 const About = () => {
   return (
@@ -10,7 +7,7 @@ const About = () => {
       <h3>Biz xaqimizda</h3>
       <div className="about__info">
         <div className="about__column">
-          <img src={Svg1} alt="" />
+          <img src="/assets/svg1.svg" alt="" />
           <h2>Tezda Xizmat Ko'rsatish</h2>
           <p>
             ARIZALAR KUNIGA 24 SOAT QABUL QILINADI. AGAR MUAMMO SHOSILINCH
@@ -19,7 +16,7 @@ const About = () => {
           </p>
         </div>
         <div className="about__column">
-          <img src={Svg2} alt="" />
+          <img src="/assets/svg2.svg" alt="" />
           <h2>Yetuk mutaxasislarimiz</h2>
           <p>
             BIZNING HODIMLARIMIZ HAMMA NARSAGA G'AMXO'RLIK QILADI:
@@ -28,7 +25,7 @@ const About = () => {
           </p>
         </div>
         <div className="about__column">
-          <img src={Svg3} alt="" />
+          <img src="/assets/svg3.svg" alt="" />
           <h2>Sizga Maqul Vaqtda</h2>
           <p>
             SIZ O'ZINGIZ UCHUN MAQUL VA QULAY VAQTNI TALANG VA BIZGA MUROJAT

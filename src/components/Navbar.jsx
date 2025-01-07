@@ -30,7 +30,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Mobile Menu Button */}
         <button className="navbar-toggle" aria-label="Toggle menu">
           <svg
             xmlns="http://www.w3.org/2000/svg"
