@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about">
+    <section className="about" id="about">
       <h3>Biz xaqimizda</h3>
       <div className="about__info">
         <div className="about__column">
@@ -33,7 +33,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

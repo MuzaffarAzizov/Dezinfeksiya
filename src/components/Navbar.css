@@ -1,37 +1,49 @@
-.navbar {
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
+/* Navbar sticky styling */
+.navbar {
+  position: sticky;
+  top: 0; /* Sticks to the top of the viewport */
+  z-index: 1000; /* Ensures it stays above other content */
+  background-color: white; /* Keeps the background intact */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for visibility */
+  transition: all 0.3s ease; /* Smooth transition for navbar background and shadow */
+}
+
+/* Container for navbar content */
 .navbar-container {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Navbar logo image styling */
 .navbar-logo img {
   height: 80px;
   width: 200px;
 }
 
+/* Desktop menu: Always visible */
 .navbar-menu {
-  display: flex;
+  display: flex; /* Ensure the menu is visible on desktop */
   gap: 16px;
+  align-items: center; /* Align items in the center */
   list-style: none;
   font-size: 16px;
-  color: #4a4a4a;
   font-weight: 500;
+  margin: 0; /* Reset any default margins */
+  transition: all 0.3s ease; /* Smooth transition for menu items */
 }
 
 .navbar-menu a {
   text-decoration: none;
-  color: inherit;
-  transition: color 0.2s ease-in-out;
-  font-family: "Unbounded", sans-serif;
   color: #00000098;
+  font-family: "Unbounded", sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -40,25 +52,74 @@
   color: #007bff;
 }
 
+/* Hamburger button: Hidden on desktop */
 .navbar-toggle {
-  display: none;
+  display: none; /* Hidden by default */
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  z-index: 101; /* Above the menu */
 }
 
+/* Hamburger icon styling */
 .navbar-icon {
   height: 24px;
   width: 24px;
   stroke: #4a4a4a;
 }
 
+/* Navbar button (treated as a link) */
+#navbar-button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  background: linear-gradient(0deg, #5f8054, #128f10);
+  font-family: "Unbounded", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px; /* Same font size as the links */
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Ensure it stays inline */
+}
+
+.navbar-button:hover {
+  background-color: #059669; /* Same hover color as the other links */
+}
+
+.navbar-button:active {
+  transform: translateY(1px); /* Pressed effect */
+}
+/* Mobile menu styling (hidden by default) */
 @media (max-width: 768px) {
   .navbar-menu {
-    display: none;
+    display: flex; /* Flex layout for menu items */
+    flex-direction: column;
+    gap: 38px;
+    position: fixed; /* Fixed for proper positioning */
+    top: 0;
+    right: -100%; /* Initially hidden off-screen */
+    width: 50%; /* Set menu width to 50% */
+    height: 100%; /* Full height for the vertical menu */
+    background-color: white;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 16px;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
   }
 
+  /* When menu is open */
+  .navbar-menu.open {
+    right: 0; /* Bring menu into view */
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Hamburger button visible on mobile */
   .navbar-toggle {
     display: block;
   }

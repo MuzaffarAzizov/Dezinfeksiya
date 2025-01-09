@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <h2>Xizmatlar</h2>
       <p>Biz sizga samarali va sifatli xizmat taqdim etamiz.</p>
       <div className="service__card">

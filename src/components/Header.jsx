@@ -15,7 +15,6 @@ const Header = () => {
           </p>
           <button>Bog'lanish</button>
         </div>
-
         <div className="header-image">
           <img src="/assets/Dezinfeksiya1.webp" alt="Dezinfektsiya" />
         </div>

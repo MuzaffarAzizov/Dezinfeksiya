@@ -1,17 +1,23 @@
-import React from "react";
+// Navbar.js
+import React, { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="navbar">
       <nav className="navbar-container">
         <div className="navbar-logo">
           <img src="/assets/logo.png" alt="Logo" />
         </div>
-
-        <ul className="navbar-menu">
+        <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
           <li>
-            <a href="#home">Asosiy</a>
+            <a href="#top">Asosiy</a>
           </li>
           <li>
             <a href="#about">Biz xaqimizda</a>
@@ -25,27 +31,10 @@ const Navbar = () => {
           <li>
             <a href="#uzbek">Uzbek</a>
           </li>
-          <li>
-            <a href="#contact">Bog'lanish</a>
-          </li>
+          <a href="#contact" className="navbar-button" id="navbar-button">
+            Bog'lanish
+          </a>
         </ul>
-
-        <button className="navbar-toggle" aria-label="Toggle menu">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="navbar-icon"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
       </nav>
     </header>
   );
