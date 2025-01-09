@@ -26,6 +26,7 @@ html {
 .navbar-logo img {
   height: 80px;
   width: 200px;
+  cursor: pointer;
 }
 
 /* Desktop menu: Always visible */

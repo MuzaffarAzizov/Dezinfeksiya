@@ -13,7 +13,9 @@ const Navbar = () => {
     <header className="navbar">
       <nav className="navbar-container">
         <div className="navbar-logo">
-          <img src="/assets/logo.png" alt="Logo" />
+          <a href="#top">
+            <img src="/assets/logo.png" alt="Logo" />
+          </a>
         </div>
         <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
           <li>
