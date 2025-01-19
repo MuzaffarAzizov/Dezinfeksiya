@@ -1,0 +1,106 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "uzbek": "Uzbek",
+    "english": "English",
+    "russian": "Russian"
+  },
+  "header": {
+    "title": "Bukhara Disinfection Service",
+    "description1": "We have been providing professional disinfection services in Bukhara for 10 years.",
+    "description2": "So, we know how to deal with pests from the very beginning.",
+    "contactButton": "Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "service1": {
+      "title": "Quick Service",
+      "description": "Applications are accepted 24/7. If the problem is urgent, we can leave immediately. The quality remains impeccable."
+    },
+    "service2": {
+      "title": "Skilled Specialists",
+      "description": "Our employees take care of everything: calculations, room preparation, reprocessing, final cleaning, ventilation, and inspection."
+    },
+    "service3": {
+      "title": "Convenient Time for You",
+      "description": "Choose a time that suits you and contact us. We guarantee high-quality and effective results."
+    }
+  },
+  "klapa": {
+    "title": "Klapa and harmful insects are now gone!!!",
+    "description": "Our company has been operating for many years. Our clients are satisfied with our services.",
+    "contactButton": "Contact"
+  },
+  "services": {
+    "title": "Services",
+    "description": "We provide you with efficient and quality services.",
+    "service1": {
+      "title": "Disinfection - elimination of harmful microorganisms",
+      "description": "The main tasks of any disinfection are to eliminate harmful microorganisms that could lead to infections and diseases. Disinfection measures clean the environment from mold, viruses, rot, and microbes."
+    },
+    "service2": {
+      "title": "Pest Control - eliminating insects",
+      "description": "Many people look for pest control methods to get rid of unwanted insects like mosquitoes, cockroaches, ants, and other pests. These insects are not only bothersome but also carry diseases. Pest control eliminates flying and crawling pests such as mosquitoes, cockroaches, ants, and others."
+    },
+    "service3": {
+      "title": "Rodent Control - elimination of rodents",
+      "description": "Rodent control in Tashkent involves a series of comprehensive measures to eliminate rodents. Rodents are resilient creatures, so various methods are used to eradicate them."
+    }
+  },
+  "types": {
+    "type1": {
+      "title": "BEDBUGS",
+      "description": "They live in beds, soft furniture, textiles, door and window frames. They feed on human and animal blood. They cause allergies and severe psychological discomfort."
+    },
+    "type2": {
+      "title": "ROACHES",
+      "description": "Cockroaches can infest homes and cause health problems. They spread diseases and allergens that can trigger asthma."
+    },
+    "type3": {
+      "title": "ANTS",
+      "description": "Ants invade kitchens and food storage areas. They are known for being social insects, often forming large colonies."
+    },
+    "type4": {
+      "title": "MICE",
+      "description": "Mice are common rodents that invade homes and food storage. They carry diseases and contaminate food with their waste."
+    },
+    "type5": {
+      "title": "MOSQUITOS",
+      "description": "Mosquitoes are pests that transmit diseases such as malaria and dengue fever. They breed in standing water."
+    },
+    "contactButton": "Contact"
+  },
+  "rasmiy": {
+    "title": "Official use - 1 year. We provide services to legal entities. The services are licensed!!!",
+    "contactButton": "Contact"
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": "How is pest control carried out?",
+    "a1": "Special equipment is used to turn insecticides into an aerosol mist, which penetrates into the smallest gaps between the walls and floor tiles, reaching potential hiding places for insects.",
+    "q2": "Are the chemicals you use dangerous?",
+    "a2": "The chemicals are not harmful to humans, pets, or plants. However, the treated room should be ventilated for 40 minutes after treatment.",
+    "q3": "Do I need to prepare my house for treatment?",
+    "a3": "Mainly, you should isolate dishes and personal hygiene items. Pets should also be isolated during treatment. No need to cover furniture or appliances."
+  },
+  "contact": {
+    "title1": "Leave your",
+    "title2": "information",
+    "text": "Please leave your information",
+    "namePlaceholder": "Your Name",
+    "phonePlaceholder": "+998-94-033-72-12",
+    "submitButton": "Submit",
+    "imageAlt": "Contact Us"
+  },
+  "footer": {
+    "location": "Uzbekistan, Bukhara City",
+    "phoneNumber": "+998 94 033 72 12",
+    "locationIconAlt": "Location",
+    "phoneIconAlt": "Phone",
+    "arrowIconAlt": "Arrow"
+  }
+}

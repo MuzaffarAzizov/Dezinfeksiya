@@ -1,0 +1,106 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "faq": "Tez-tez so'raladigan savollar",
+    "contact": "Bog'lanish",
+    "uzbek": "O'zbek",
+    "english": "Inglizcha",
+    "russian": "Ruscha"
+  },
+  "header": {
+    "title": "Buxoro Dezinfektsiya xizmati",
+    "description1": "Biz Buxoroda 10 yildan beri professional dezinfeksiya xizmatlarini ko'rsatib kelmoqdamiz.",
+    "description2": "Shuning uchun, zararkunandalarga qanday qarshi kurashishni boshlashni yaxshi bilamiz.",
+    "contactButton": "Bog'lanish"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "service1": {
+      "title": "Tezkor xizmat",
+      "description": "Arizalar 24/7 qabul qilinadi. Agar muammo shoshilinch bo'lsa, biz darhol chiqib ketishimiz mumkin. Sifat esa o'zgarmaydi."
+    },
+    "service2": {
+      "title": "Malakali mutaxassislar",
+      "description": "Bizning xodimlarimiz barcha ishlarni o'z zimmalariga oladi: hisob-kitoblar, xona tayyorlash, qayta ishlash, yakuniy tozalash, ventilyatsiya va nazorat tekshiruvi."
+    },
+    "service3": {
+      "title": "Sizga qulay vaqtda",
+      "description": "Siz uchun qulay vaqtda bizga murojaat qiling. Biz kafolatlangan va samarali natijalar taqdim etamiz."
+    }
+  },
+  "klapa": {
+    "title": "Klapa va zararli hashorot endi yo'q deb hisoblang!!!",
+    "description": "Bizning kompaniyamiz ko'p yillardan beri faoliyat yuritib kelmoqda. Mijozlarimiz bizning xizmatlarimizdan mamnun.",
+    "contactButton": "Bog'lanish"
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "description": "Biz sizga samarali va sifatli xizmat taqdim etamiz.",
+    "service1": {
+      "title": "Dezinfeksiya - zararli mikroorganizmlarni yo'q qilish",
+      "description": "Har qanday dezinfektsiyaning asosiy vazifalari infektsiyalar va kasalliklarga olib kelishi mumkin bo'lgan xavfli mikroorganizmlarni yo'q qilishdir. Dezinfeksiya choralari bu yerni mogor, virus, chiriyotgan va mikroblardan tozalaydi."
+    },
+    "service2": {
+      "title": "Dezinseksiya - hasharotlarni yo'q qilish",
+      "description": "Ko'p odamlar birinchi navbatda 'dezinfestatsiya' so'zini istalmagan qo'shnilaridan - choyshablar, barchamböcekler, chumolilar va boshqa hasharotlardan xalos bo'lish du yolini qidirganda. Dezinseksiya - bu hasharotlarni yo'q qilish."
+    },
+    "service3": {
+      "title": "Deratizatsiya - kemiruvchilarni yo'q qilish",
+      "description": "Toshkentda deratizatsiya kemiruvchilarni yo'qotishga qaratilgan kompleks chora-tadbirlarni o'z ichiga oladi. Ularni yo'q qilish uchun bir nechta usullarni qo'llash zarur."
+    }
+  },
+  "types": {
+    "type1": {
+      "title": "KLAPALAR",
+      "description": "Ular to'shakda, yumshoq mebelda, to'qimachilikda, eshiq romlari va deraz romlari ostida yashaydilar. Ular odamlar va issiq qo'ng'ivonlarning qoni bilan o'zlashadi. Allergiya va og'ir psixolik noqulaylikni qo'zg'atish..."
+    },
+    "type2": {
+      "title": "QO'NG'IZLAR",
+      "description": "Qo'ng'izlar uylarni boshqarishadi va salomatlik muammolarini keltirib chiqarishadi. Ular kasalliklarni tarqatadi va allergiyalarni kuchaytiradi."
+    },
+    "type3": {
+      "title": "CHUMOLILAR",
+      "description": "Chumolilar oshxonada va oziq-ovqat saqlash joylarida paydo bo'lishadi. Ular ijtimoiy hasharotlar bo'lib, ko'pincha katta koloniyalar hosil qiladi."
+    },
+    "type4": {
+      "title": "SICHQONLAR",
+      "description": "Sichqonlar odatda uylar va oziq-ovqat saqlash joylarini ishg'ol qiladi. Ular kasalliklarni tarqatadi va oziq-ovqatni axlat bilan ifloslantiradi."
+    },
+    "type5": {
+      "title": "CHIVINLAR",
+      "description": "Chivinlar kasalliklarni tarqatib, o'lja sifatida qon so'rishadi. Ular suyuqlik yig'ilgan joylarda ko'payishadi."
+    },
+    "contactButton": "Bog'lanish"
+  },
+  "rasmiy": {
+    "title": "Rasmiy foydalanish - 1 yil. Biz xizmat va yuridik shaxslarga xizmat kursatamiz. Xizmatlar litsenziyalangan!!!",
+    "contactButton": "Bog'lanish"
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": "Zararkunandalarni yo'q qilish qanday amalga oshiriladi?",
+    "a1": "Maxsus devor-uskunalar yordamida insektitsidlar aerozolli tumanga aylantiradi va qo'g'ozi, devorlar va taxta plitalari orasidagi eng kichik bo'shliklarga, ko'zga ko'rinmas hasharotlar uchun potentsial 'yashirish joylari' ga kiradi.",
+    "q2": "Siz foydalanilgan dorilar xavflilimi?",
+    "a2": "Dorilar odamlar, uyvonlari va o'simliklar uchun xavfli emas. Ammo davolashdan keyingi xonani 40 daqiqada ventilyatsiya qilish kerak.",
+    "q3": "Menga uyimni davolashga tayyorlashning qandaydir usuli kerakmi?",
+    "a3": "Asosan, idish-tovoq va shaxsiy gigiena vositalarini izolyatsion qilishingiz kerak. Davolash vaqtida uyvonlari ham izolyatsiya qilinishi kerak. Mebel yoki maishiy texnikani ko'rishga xojat yo'q."
+  },
+  "contact": {
+    "title1": "Malumotingizni",
+    "title2": "qoldiring",
+    "text": "Malumotingizni qoldiring",
+    "namePlaceholder": "Ismingiz",
+    "phonePlaceholder": "+998-94-033-72-12",
+    "submitButton": "Yuborish",
+    "imageAlt": "Biz bilan bog'lanish"
+  },
+  "footer": {
+    "location": "O'zbekiston, Buxoro shaxri",
+    "phoneNumber": "+998 94 033 72 12",
+    "locationIconAlt": "Manzil",
+    "phoneIconAlt": "Telefon",
+    "arrowIconAlt": "O'q"
+  }
+}

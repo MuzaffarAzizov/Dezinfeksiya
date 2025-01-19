@@ -1,36 +1,28 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./About.css";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="about" id="about">
-      <h3>Biz xaqimizda</h3>
+      <h3>{t("about.title")}</h3>
       <div className="about__info">
         <div className="about__column">
           <img src="/assets/svg1.svg" alt="" />
-          <h2>Tezda Xizmat Ko'rsatish</h2>
-          <p>
-            ARIZALAR KUNIGA 24 SOAT QABUL QILINADI. AGAR MUAMMO SHOSILINCH
-            BO'lsa, BIZ DARHOL KETISHIMIZ MUMKIN. SHU BILAN BIRGA, SIFAT
-            MUKAMMAL BO'LIB KOLADI.
-          </p>
+          <h2>{t("about.service1.title")}</h2>
+          <p>{t("about.service1.description")}</p>
         </div>
         <div className="about__column">
           <img src="/assets/svg2.svg" alt="" />
-          <h2>Yetuk mutaxasislarimiz</h2>
-          <p>
-            BIZNING HODIMLARIMIZ HAMMA NARSAGA G'AMXO'RLIK QILADI:
-            HISOB-KITOBLAR, XONANI TAYYoRLash, QAYTA ISHLASH, YAKUNIY TOZALASH,
-            VENTILYATSIYA VA NAZORAT TEKSHIRUVI.
-          </p>
+          <h2>{t("about.service2.title")}</h2>
+          <p>{t("about.service2.description")}</p>
         </div>
         <div className="about__column">
           <img src="/assets/svg3.svg" alt="" />
-          <h2>Sizga Maqul Vaqtda</h2>
-          <p>
-            SIZ O'ZINGIZ UCHUN MAQUL VA QULAY VAQTNI TALANG VA BIZGA MUROJAT
-            QILING. SIZGA KAFOLATLANGAN VA SAMARALI NATIJANI OLIB BORAMIZ.
-          </p>
+          <h2>{t("about.service3.title")}</h2>
+          <p>{t("about.service3.description")}</p>
         </div>
       </div>
     </section>

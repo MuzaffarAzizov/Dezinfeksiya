@@ -1,51 +1,65 @@
-html {
-  scroll-behavior: smooth; /* Enable smooth scrolling */
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
-
-/* Navbar sticky styling */
+* {
+  box-sizing: border-box;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
 .navbar {
   position: sticky;
-  top: 0; /* Sticks to the top of the viewport */
-  z-index: 1000; /* Ensures it stays above other content */
-  background-color: white; /* Keeps the background intact */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for visibility */
-  transition: all 0.3s ease; /* Smooth transition for navbar background and shadow */
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-/* Container for navbar content */
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-/* Navbar logo image styling */
 .navbar-logo img {
   height: 80px;
   width: 200px;
   cursor: pointer;
 }
 
-/* Desktop menu: Always visible */
 .navbar-menu {
-  display: flex; /* Ensure the menu is visible on desktop */
+  display: flex;
   gap: 16px;
-  align-items: center; /* Align items in the center */
+  align-items: center;
   list-style: none;
   font-size: 16px;
   font-weight: 500;
-  margin: 0; /* Reset any default margins */
-  transition: all 0.3s ease; /* Smooth transition for menu items */
+  margin: 0;
+  transition: all 0.3s ease;
+}
+.language-selector {
+  border: 2px solid rgba(0, 0, 0, 0.4784313725);
+  font-weight: 600;
+  background-color: #fff;
+  color: #000000a6;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 7px;
+  cursor: pointer;
 }
 
 .navbar-menu a {
   text-decoration: none;
   color: #00000098;
   font-family: "Unbounded", sans-serif;
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: 300;
 }
 
@@ -53,13 +67,13 @@ html {
   color: #007bff;
 }
 
-/* Hamburger button: Hidden on desktop */
 .navbar-toggle {
   display: none; /* Hidden by default */
   background: none;
   border: none;
   cursor: pointer;
   z-index: 101; /* Above the menu */
+  padding: 8px;
 }
 
 /* Hamburger icon styling */
@@ -67,6 +81,7 @@ html {
   height: 24px;
   width: 24px;
   stroke: #4a4a4a;
+  fill: none;
 }
 
 /* Navbar button (treated as a link) */
@@ -92,7 +107,24 @@ html {
 .navbar-button:active {
   transform: translateY(1px); /* Pressed effect */
 }
-/* Mobile menu styling (hidden by default) */
+@media (max-width: 1000px) {
+  .navbar-menu a {
+    font-size: 1em;
+  }
+
+  #navbar-button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  .navbar-logo img {
+    height: 60px;
+    width: 100px;
+  }
+
+  .language-selector {
+    font-size: 1em;
+  }
+}
 @media (max-width: 768px) {
   .navbar-menu {
     display: flex; /* Flex layout for menu items */
@@ -101,11 +133,11 @@ html {
     position: fixed; /* Fixed for proper positioning */
     top: 0;
     right: -100%; /* Initially hidden off-screen */
-    width: 50%; /* Set menu width to 50% */
+    width: 70%; /* Set menu width to 50% */
     height: 100%; /* Full height for the vertical menu */
     background-color: white;
     box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    padding: 16px;
+    padding: 24px;
     z-index: 100;
     visibility: hidden;
     opacity: 0;

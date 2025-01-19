@@ -1,25 +1,23 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./FAQ.css";
 
 const FAQ = () => {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(null);
 
   const faqData = [
     {
-      question: "Zararkunandalarni yo'q qilish qanday amalga oshiriladi?",
-      answer:
-        "Maxsus devor-uskunalar yordamida insektitsidlar aerozolli tumanga aylantiradi va qo'g'ozi, devorlar va taxta plitalari orasidagi eng kichik bo'shliklarga, ko'zga ko'rinmas hasharotlar uchun potentsial 'yashirish joylari' ga kiradi.",
+      question: t("faq.q1"),
+      answer: t("faq.a1"),
     },
     {
-      question: "Siz foydalanilgan dorilar xavflilimi?",
-      answer:
-        "Dorilar odamlar, uyvonlari va o'simliklar uchun xavfli emas. Ammo davolishdan keyingi xonani 40 daqiqada ventilyatsiya qilish kerak.",
+      question: t("faq.q2"),
+      answer: t("faq.a2"),
     },
     {
-      question:
-        "Menga uyimni davolishga tayyorlashning qandaydir usuli kerakmi?",
-      answer:
-        "Asosan, idish-tovoq va shaxsiy gigiena vositalarini izolyatsion qilishingiz kerak. Davolash vaqtida uyvonlari ham izolyatsiya qilinishi kerak. Mebel yoki maishiy texnikani ko'rishga xojat yo'q.",
+      question: t("faq.q3"),
+      answer: t("faq.a3"),
     },
   ];
 
@@ -29,7 +27,7 @@ const FAQ = () => {
 
   return (
     <div className="faq-section" id="faq">
-      <h2 className="faq-title">FAQ</h2>
+      <h2 className="faq-title">{t("faq.title")}</h2>
       <div className="faq-container">
         {faqData.map((faq, index) => (
           <div key={index} className="faq-item">
